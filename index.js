@@ -4,10 +4,10 @@ function shout(string){
 }
 
 
-function whisper(string{
+function whisper(string){
   string = string.toLowerCase();
   return string;
-})
+}
 
 function logshout(string){
   string = string.toUpperCase();
