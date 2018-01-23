@@ -9,12 +9,18 @@ function whisper(string){
   return string;
 }
 
-function logshout(string){
+function logShout(string){
   string = string.toUpperCase();
   console.log(string);
 }
 
-function logwhisper(string){
+function logWhisper(string){
   string = string.toLowerCase();
   console.log(string);
+}
+
+sayHiToGrandma(string){
+  if(string===string.toLowerCase()){
+    return "T can't hear you";
+  }
 }
